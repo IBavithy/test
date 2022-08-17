@@ -1,0 +1,137 @@
+.img-icon{
+	height: 30px;
+	width: 30px;
+}
+
+.img_about{
+}
+
+.img_about img{
+	width: 70%;
+	height: 100%;
+}
+
+.about_description p{
+	margin: 20px;
+}
+
+.about_description h2{
+	margin-top: 30px;
+}
+
+header.mastheadd nav.ma_nav_bar{
+	background-color: #212529;
+}
+
+.page_contact .container h2{
+	margin-top: 90px;
+	font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	color: #ffc800;
+}
+
+.page_contact .container h1{
+	margin-top: 80px;
+}
+
+.page_contact .container .row{
+	margin: 30px;
+}
+
+.fa-phone{
+	color: #ffc800;
+}
+
+.fa-map-marker{
+	color: #ffc800;
+}
+
+.fa-envelope{
+	color: #ffc800;
+}
+
+.fa-clock{
+	color: #ffc800;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.rs_contact{
+	font-size: 5px;
+	text-align: center;
+}
+
+
+.rs_contact .col-xl .fa-whatsapp{
+	font-size: 30px;
+	padding: 4px;
+	padding-right: 6px;
+	padding-left: 6px;
+	color: #fff;
+	background-color: #128c7e;
+	border-radius: 4px;
+}
+
+.rs_contact .col-xl .fa-facebook-f{
+	font-size: 30px;
+	padding: 3px;
+	padding-right: 8px;
+	padding-left: 8px;
+	border: solid;
+	color: #fff;
+	background-color: #3b5998;
+	border-radius: 4px;
+}
+
+.rs_contact .col-xl .fa-twitter{
+	font-size: 30px;
+	padding: 3px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border: solid;
+	color: #fff;
+	background-color: #00acee;
+	border-radius: 4px;
+}
+
+.rs_contact .col-xl .fa-linkedin-in{
+	font-size: 30px;
+	padding: 3px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border: solid;
+	color: #fff;
+	background-color: #0077b5;
+	border-radius: 4px;
+}
+
+.rs_contact .col-xl .fa-instagram{
+	font-size: 30px;
+	padding: 3px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border: solid;
+	color: #fff;
+	background: linear-gradient(#f9ed32, #ee2a7b, #002aff);
+	border-radius: 4px;
+}
+
+.blog .container .row .card{
+	margin: 20px;
+	margin-top: 30px;
+}
+
+.blog .container .row{
+	justify-content: space-around;
+}
+
+.blog .container h1{
+	margin: 35px;
+}
+
+.card-text{
+	font-size: 14px;
+}
+
+.portfolio_ .container .text-center h2{
+	margin-top: 40px;
+}
