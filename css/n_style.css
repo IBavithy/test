@@ -89,4 +89,133 @@ header.mastheadd nav.ma_nav_bar{
 
 .portfolio_ .container .text-center h2{
 	margin-top: 40px;
+} 
+
+.p_details .row .col img{
+	width: 100%;
+}
+
+.p_details .row .col-md h1{
+	margin-top: 50px;
+}
+
+.p_details{
+
+}
+
+.vaut{
+	border-top: solid #ffc800;
+	border-width: 5px;
+	padding-top: 15px;
+}
+
+.p_details{
+	margin-bottom: 60px;
+}
+
+.details_bas .col img{
+	width: 100%;
+	margin: 20px;
+}
+
+.details_bas .col-md{
+	margin-top: 30px;
+}
+
+.nav-item .dropdown ul{
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 10px;
+	z-index: 99;
+	opacity: 0;
+	visibility: hidden;
+	background: #fff;
+	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+	transition: 0.3s;
+	border-radius: 4px;
+	border-top: solid 4pt #ffc800;
+}
+
+.nav-item .dropdown:hover>ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.nav-item .dropdown .nav-link{
+	cursor: pointer;
+}
+.service_ .container .row .img_ser img{
+	width: 100%;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.ecrit_service{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.ecrit_service button{
+	width: 100%;
+}
+
+.service_{
+	margin-top: 60px;
+}
+
+.input_devis input{
+	width: 100%;
+	height: 3rem;
+	padding: 10px;
+	border: none;background: transparent;
+	border-bottom: solid #6b7b8c;
+}
+
+.input_devis{
+	margin-bottom: 15px;
+}
+
+.section_devis{
+}
+
+.section_devis textarea{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+
+.ma_form{
+	padding: 40px;
+	background:  #fff;
+	opacity: 0.8;
+}
+
+.btn-devis button{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* CSS article blog */
+
+.img-article img{
+	width: 100%;
+}
+
+.section-article h2{
+	margin: 50px;
+}
+
+.section-article-content p{
+	margin: 10px;
+}
+
+.section-article-content img{
+	width: 100%;
+	margin-bottom: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }

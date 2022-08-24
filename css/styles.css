@@ -56,7 +56,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Source Sans Variable, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -3540,6 +3540,11 @@ textarea.form-control-lg {
 .dropdown-toggle {
   white-space: nowrap;
 }
+
+.dropdown:hover .dropdown-menu{
+  visibility: visible;
+  opacity: 1;
+}
 .dropdown-toggle::after {
   display: inline-block;
   margin-left: 0.255em;
@@ -3737,6 +3742,10 @@ textarea.form-control-lg {
 .dropstart .dropdown-toggle::after {
   display: none;
 }
+.dropdown-toggle:hover{
+  display: inline-block;
+}
+
 .dropstart .dropdown-toggle::before {
   display: inline-block;
   margin-right: 0.255em;
@@ -11515,8 +11524,8 @@ header.masthead .masthead-heading {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  width: 3rem;
-  height: 3rem;
+  width: 1.5rem;
+  height: 1.5rem;
   cursor: pointer;
   background-color: transparent;
 }
@@ -11711,7 +11720,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/img/map-image.jpg");
+  background: linear-gradient(rgba(107, 123, 140, 0.8), rgba(107, 123, 140, 0.8)), url("../assets/img/map-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }

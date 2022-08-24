@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Bavstrings</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/logo.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -30,7 +30,17 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link">Services</a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-services">
+                                    <li><a class="dropdown-item" href="service_details.html">Design web</a></li>
+                                    <li><a class="dropdown-item" href="service_details.html">conception web</a></li>
+                                    <li><a class="dropdown-item" href="service_details.html">marketing web</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="blog.html">Blogue</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">A propos</a></li>
@@ -42,7 +52,7 @@
             <div class="container">
                 <div class="masthead-subheading">Bienvenue chez IBav !</div>
                 <div class="masthead-heading text-uppercase">Changeons votre identité</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Obtenir un devis</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="devis.html">Obtenir un devis</a>
             </div>
         </header>
 
@@ -59,33 +69,62 @@
                 <div class="row text-center">
                     <div class="col-md-4">
                         <a href="#">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-                        </span>
+                            <div class="img_about team-member">
+                                <img class="mx-auto rounded-circle" src="assets/img/services/code.jpg">
+                            </div>
                         </a>
                         <h4 class="my-3">Conception web</h4>
                         <p class="text-muted">Du design web, en passant par la conception du site en question, de l'integration ou de l'amelioration du SEO, Bavstrings vous permet de faire decouvrir ...<a href="#"> En savoir plus</a> <!-- votre entreprise a vos clients grace a un site web tres professionnelles et a la fois ludique--></p>
                     </div>
                     <div class="col-md-4">
                         <a href="#">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fab fa-meetup fa-stack-1x fa-inverse"></i>
-                        </span>
+                            <div class="img_about team-member">
+                                <img class="mx-auto rounded-circle" src="assets/img/services/design.jpg">
+                            </div>
                         </a>
                         <h4 class="my-3">Design divers</h4>
                         <p class="text-muted">Le profil d'une entreprise a succes de nos jours repose tout d'abord sous l'aspect qu'il a, c'est pourquoi il est important de mettre l'accent le design ... <a href="#"> En savoir plus</a> <!--sur  global de l'entreprise. De la conception d'un logo attreyant et professionnels, en passant par des vues de publicites, des spots publicitaires et etc..--></p>
                     </div>
                     <div class="col-md-4">
                         <a href="#">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-bell fa-stack-1x fa-inverse"></i>
-                        </span>
+                            <div class="img_about team-member">
+                                <img class="mx-auto rounded-circle" src="assets/img/services/marketing.jpg">
+                            </div>
                         </a>
                         <h4 class="my-3">marketing digital</h4>
                         <p class="text-muted">Vue l'ampleur des reseaux sociaux de nos jours, il est imperatif pour les entreprises de s'adapter a cette evolution, c'est pourquoi Bavstring... <a href="#"> En savoir plus</a> <!--se donne pour objectif de vous offrir un service de marketing digital de la plus haute des qualites. <a href="#"> En savoir plus</a>--></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Partie details -->
+
+        <section style="margin-right: 30px; margin-left: 30px;">
+            <div class="container p_details">
+                <div class="row">
+                    <div class="col-md">
+                        <h1><span class="vaut">VAUT </span>MIEUX L'AVOIR</h1>
+                        <p>De nos jours, posseder un site web se veut indispebsable pour une entreprise, L'image que vous projetez sur le web est determinante. Pour donc donner une image professionnelles et pour que l'opinion de la clientele sur votre compagnie soit les plus positifs, il est indispensable d'avoir un site web des plus attrayants et fonctionnels. Que ce soit pour vous en creer un tout nouveau ou ameliorer le votre deja existant. Ca sera un reel plaisir de travailler avec vous.</p>
+                    </div>
+
+                    <div class="col">
+                        <img class="mx-auto" src="assets/img/site.jpg">
+                    </div>
+                </div>
+            </div>
+
+             <div class="container">
+                <div class="row details_bas">
+                    <div class="col">
+                        <img class="mx-auto" src="assets/img/site.jpg">
+                    </div>
+
+                    <div class="col-md">
+                        <h1>Jamais sans les autres</h1>
+                        <p>Pour une image de plus en plus raynnante, votre site a besoin de marcher en coalition avec vos different pages de reseaux sociaux. C'est pourquoi en plus de la conception de votre site moderne, nous vous offrons un service de marketing digital complet et optimal et allant meme au community management.
+                        Ainsi donc faites rayonner les vues de votre entreprise avec nos services de design modernes et propres, soyez proffesionnels avec nos sites web futuristes, et atteignez de plus en plus de prospect grace a nos strategie de marketing digne des plus grandes marques</p>
                     </div>
                 </div>
             </div>
@@ -99,15 +138,15 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Voici quelques unes de mes realisations.</h3>
+                    <h3 class="section-subheading text-muted">Voici quelques unes de nos realisations.</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link shadow-lg" data-bs-toggle="modal" href="#portfolioModal1">
+                            <a class="portfolio-link shadow-lg" href="#">
                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    <div class="portfolio-hover-content"><label style="font-size: 30px; font-family: Source Sans Pro;">Decouvrir</label></div>
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolioo/1.png" alt="..." />
                             </a>
@@ -120,9 +159,9 @@
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link shadow-lg" data-bs-toggle="modal" href="#portfolioModal2">
+                            <a class="portfolio-link shadow-lg" href="#">
                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    <div class="portfolio-hover-content"><label style="font-size: 30px; font-family: Source Sans Pro;">Decouvrir</label></div>
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolioo/2.png" alt="..." />
                             </a>
@@ -135,9 +174,9 @@
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 3-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link shadow-lg" data-bs-toggle="modal" href="#portfolioModal3">
+                            <a href="blog.html" class="portfolio-link shadow-lg">
                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    <div class="portfolio-hover-content"><label style="font-size: 30px; font-family: Source Sans Pro;">Decouvrir</label></div>
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolioo/3.png" alt="..." />
                             </a>
@@ -158,7 +197,7 @@
         <section class="page-section" id="about">
             <div class="text-center">
                     <h2 class="section-heading text-uppercase">A propos</h2>
-                    <h3 class="section-subheading text-muted">Tout savoir a propos de moi.</h3>
+                    <h3 class="section-subheading text-muted">Tout savoir de moi.</h3>
             </div>
 
             <div class="container">
@@ -168,8 +207,7 @@
                     </div>
                     <div class=" col-lg-6 about_description">
                         <h2 class="text-center">Qui suis je ? </h2>
-                        <p> design web, en passant par la conception du site en question, de l'integration ou de l'ameliorationdu SEO, Bavstrings vous permet de faire decouvrire profil d'une entreprise a succes de nos jours repose tout d'abord sous l'aspect qu'il a, c'est pourquoi il est ...<a href="#"> En savoir plus</a> <!--important de mettre l'accent le design
-                        Vue l'ampleur des reseaux sociaux de nos jours, il est imperatif pour les entreprises de s'adapter a cette evolution, c'est pourquoi Bavstring--></p>
+                        <p>Je suis BAHANI VISSILEY THIERRY veritable passionné du digital et eleve ingenieur informatique je me lance dans ce domaine bien avant le debut de ma formation en tant que concepteur freelance et m'efforce a donner le meilleur de moi pour developper le genie createur qui est en moi. Deja lance et constatant ce besoin de digitalisation de nos produit, je me donne donc d'apporter ma contribution a l'emergence des entreprises dans le web en creant IBav propulse par Bavithycompany</p>
                     </div>
                 </div>
                 
@@ -181,12 +219,12 @@
                 <div class="row">
                     <div class=" col-lg-6 about_description">
                         <h2 class="text-center">Mes objectifs </h2>
-                        <p> design web, en passant par la conception du site en question, de l'integration ou de l'ameliorationdu SEO, Bavstrings vous permet de faire decouvrire profil d'une entreprise a succes de nos jours repose tout d'abord sous l'aspect qu'il a, c'est pourquoi il est ...<a href="#"> En savoir plus</a> <!--important de mettre l'accent le design
-                        Vue l'ampleur des reseaux sociaux de nos jours, il est imperatif pour les entreprises de s'adapter a cette evolution, c'est pourquoi Bavstring--></p>
+                        <p>A travers les services disponibles sur IBav, je me donne pour objectif de donner une certaine dimension à toute activité en offrant des conceptions futuristes simples et propres, en mettant en valeur toute activité sur internet à travers une stratégie marketing digne des plus 
+                        grandes marques, le tout avec un dévouement et une disponibilité remarquables, parceque toute entreprise de nos jours a besoin d'une presence sur le web pour emerger et atteindre pleinement ses objectifs</p>
                     </div>
 
                     <div class="col-lg-6 img_about team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/moi.JPG">
+                        <img class="mx-auto rounded-circle" src="assets/img/moi.png">
                     </div>
                 </div>
                 
@@ -202,7 +240,7 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contactez moi</h2>
+                    <h2 class="section-heading text-uppercase">Contactez-nous</h2>
                     <h3 class="section-subheading text-muted">Avez vous des questions ou des suggestions ?</h3>
                 </div>
 

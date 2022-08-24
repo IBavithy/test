@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Bavstrings</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/logo.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -23,17 +23,27 @@
             <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="..." width="140" height="420" /></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="..." width="70" height="420" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link">Services</a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-services">
+                                    <li><a class="dropdown-item" href="service_details.html">Design web</a></li>
+                                    <li><a class="dropdown-item" href="service_details.html">conception web</a></li>
+                                    <li><a class="dropdown-item" href="service_details.html">marketing web</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="blog.html">Blogue</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">A propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">A propos</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
@@ -382,3 +392,5 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        </body>
+    </html>

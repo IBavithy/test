@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Bavstrings</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/logo.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -30,11 +30,21 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link">Services</a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdown-services">
+                                    <li><a class="dropdown-item" href="service_details.html">Design web</a></li>
+                                    <li><a class="dropdown-item" href="service_details.html">conception web</a></li>
+                                    <li><a class="dropdown-item" href="service_details.html">marketing web</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="blog.html">Blogue</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">A propos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">A propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -54,7 +64,7 @@
                     <div class="col-lg-4">
                         <i class="fas fa-envelope"></i>
                         <h6>Couriel</h6>
-                        <p>bavithycompany@gmail.com</p>
+                        <p>bavithyinnovation@gmail.com</p>
                     </div>
                     <div class="col-lg-4">
                         <i class="fas fa-phone"></i>
@@ -176,3 +186,5 @@
         <script src="js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+    </body>
+    </html>
