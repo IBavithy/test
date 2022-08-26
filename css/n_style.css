@@ -73,6 +73,14 @@ header.mastheadd nav.ma_nav_bar{
 .blog .container .row .card{
 	margin: 20px;
 	margin-top: 30px;
+	padding: 2px;
+	border-radius: 6px;
+}
+
+.blog .container .row .card img{
+	width: 100%;
+	border-radius: 6px;
+	margin: 0px;
 }
 
 .blog .container .row{
@@ -118,7 +126,7 @@ header.mastheadd nav.ma_nav_bar{
 	margin: 20px;
 }
 
-.details_bas .col-md{
+.details_bas .col_md{
 	margin-top: 30px;
 }
 
